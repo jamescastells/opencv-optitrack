@@ -1,0 +1,9 @@
+Este es el proyecto para usarse con las cámaras Optitrack.
+
+Está configurado para que se capture con 3 cámaras, y lo capturado se guarde en un archivo .avi cada uno.
+
+Dentro de ConsoleApplication1/main.cpp se encuentra el código importante. Allí están los códigos de la cámara a leerse, deben cambiarse y compilar para obtener otras cámaras.
+
+Para poder correr el código compilado, se necesitan vincular las librerías de Optitrack Camera SDK y OpenCV. Aparte, deben ubicarse los DLL de las librerías compiladas en la carpeta debug o release.
+
+-Jaime Castells
